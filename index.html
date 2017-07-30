@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>선진♡문희 혼인잔치</title>
+
+<STYLE TYPE='text/css'>
+	body { margin:0px; }
+</STYLE>
+
+<script language="javascript" type="text/javascript">
+
+	var C_Name='weddingCard';
+	var setDomain="jiny.cafe24.com";
+
+	function closeAD() {
+		document.getElementById('closebtn').style.display = "none";
+		document.getElementById('CardL_bg').style.display = "none";
+		document.getElementById('CardL').style.display = "none";
+		document.getElementById('TimeL').style.display = "none";
+		document.getElementById('TimeL_bg').style.display = "none";
+		document.getElementById('mainLL_Mov').style.display = "none";
+		document.getElementById('mainLL').style.display = "none";
+		document.getElementById('mainL').style.display = "none";
+		document.getElementById('mainLL_Mov').innerHTML = "";
+	}
+
+	function show_RS() {
+		document.getElementById('searchL').style.display = "block";
+	}
+
+	function close_RS() {
+		document.getElementById('searchL').style.display = "none";
+	}
+
+	function show_QR() {
+		document.getElementById('qrL').style.display = "block";
+	}
+
+	function close_QR() {
+		document.getElementById('qrL').style.display = "none";
+	}
+
+	function showPic(flag) {
+		var targetURL = "";
+
+		switch(flag) {
+			case 14:
+				targetURL = "http://jiny20c.cafe24.com/gnuboard4/data/file/sjmh_jjalbang/237238095_t2mPFj7s_IMG_0071.JPG";
+				window.open(targetURL, 'pic', 'width=680px, height=370px, menubar=no, toolbar=no, location=no, scrollbars=yes');
+				break;
+			case 16:
+				targetURL = "http://jiny20c.cafe24.com/gnuboard4/data/file/sjmh_jjalbang/237238095_ikc8p6wX_sc20130318-004940.jpg";
+				window.open(targetURL, 'pic', 'width=350px, height=500px, menubar=no, toolbar=no, location=no, scrollbars=yes');
+				break;
+		}
+	}
+
+	function chR_3(flag) {
+		if(flag == 2) document.getElementById('rightB').innerHTML = "<a href='#null' onClick='chR_3(1);'><img src='./images/right_3_2.gif' border=0></a>";
+		else if(flag == 1) document.getElementById('rightB').innerHTML = "<a href='#null' onClick='chR_3(2);'><img src='./images/right_3.gif' border=0></a>";
+	}
+
+	function show_card(flag) {
+		if(flag==1) document.getElementById('CardL').innerHTML = "<img src='./images/card/1.jpg' border=0 usemap='#cardM_1'>";
+		else if(flag==2) document.getElementById('CardL').innerHTML = "<img src='./images/card/2.jpg' border=0 usemap='#cardM_2'>";
+		else if(flag==3) document.getElementById('CardL').innerHTML = "<img src='./images/card/3.jpg' border=0 usemap='#cardM_3'>";
+		else if(flag==4) document.getElementById('CardL').innerHTML = "<img src='./images/card/4.jpg' border=0 usemap='#cardM_4'>";
+		else if(flag==5) document.getElementById('CardL').innerHTML = "<img src='./images/card/5.jpg' border=0 usemap='#cardM_5'>";
+	}
+
+	function show_Float() {
+		document.getElementById('CardL_bg').style.display = "block";
+		document.getElementById('CardL').style.display = "block";
+		document.getElementById('closebtn').style.display = "block";
+	}
+
+	function close_Float() {
+		if ( document.getElementById('cardck').checked ) setCookie();
+		closeAD();
+	}
+
+	function setCookie() {
+		var today = new Date();
+		today.setDate( today.getDate() + 1 );
+		document.cookie = "NP_C="+C_Name+"; expires=" + today.toGMTString()+"; domain="+setDomain+"; path=/";
+	}
+
+	function getCookie() {
+		var dc = document.cookie;
+		var be = dc.indexOf(C_Name);
+		return ( be == -1 )?false:true;
+	}
+
+	/* window.onload = function() {
+		if(!getCookie()) show_Float();
+	} */
+
+</script>
+</head>
+
+<body>
+<center>
+
+<NOPRINT>
+	<div style="width:100%; height:30px; border-bottom: 1px solid #DFDFDF; background-color: #FBFBFB;">
+		<div style="position:absolute; left:50%; margin-left: -72px; z-index:100;"><img src="images/head_top.gif" border=0></div>
+		<div style="position:absolute; top:0px; left:0px; margin-left:16px; margin-top:10px; z-index:80;"><a href="#null" onclick="this.style.behavior='url(#default#homepage)'; this.setHomePage('http://sjmh.joa.to');"><img src="images/head_left_text.gif" border=0></a></div>
+		<div style="float:right; margin-right:15px; margin-top:6px; z-index:90;"><img src="images/head_right.gif" border=0 usemap="#headrightT"></div>
+
+		<MAP name="headrightT">
+			<area shape="rect" coords="0,0,30,16" href="http://happybean.naver.com/main/SectionMain.nhn" target="_blank"></area>
+			<area shape="rect" coords="95,0,150,16" href="http://jr.naver.com/" target="_blank"></area>
+			<area shape="rect" coords="162,0,224,16" href="http://www.hangame.com/" target="_blank"></area>
+		</MAP>
+	</div>
+
+	<div id = 'CardL_bg' style = 'position:absolute; left:50%; margin-left:-492px; display:none; z-index:98; height:520px; width:982px; top:197px;'>
+		<img src="images/time/bg.gif" border=0>
+	</div>
+</NOPRINT>
+
+<div id = 'CardL' style = 'position:absolute; left:50%; margin-left:-492px; display:none; z-index:99; width:982px; top:197px;'>
+	<span><img src='images/card/1.jpg' border=0 usemap='#cardM_1'></span>
+	<!-- <span style="position:absolute; left:12%; margin-left:-50px; z-index:500; top:390px;"><font style="font-family: 나눔고딕, NanumGothic, Verdana; font-size: 9pt; color: #3d3d3d;"><input type='checkbox' id='cardck' name='cardck'>오늘 하루 이창을 열지 않습니다 <a href='#null' onClick='close_Float();'>[close]</a></font></span>-->
+</div>
+
+<NOPRINT>
+	<MAP name="cardM_1">
+		<area shape="rect" coords="19,160,41,193" href="#null" onClick="javascript:show_card(4);"></area>
+		<area shape="rect" coords="941,160,963,193" href="#null" onClick="javascript:show_card(2);"></area>
+	</MAP>
+
+	<MAP name="cardM_2">
+		<area shape="rect" coords="19,160,41,193" href="#null" onClick="javascript:show_card(1);"></area>
+		<area shape="rect" coords="941,160,963,193" href="#null" onClick="javascript:show_card(3);"></area>
+	</MAP>
+	
+	<MAP name="cardM_3">
+		<area shape="rect" coords="19,160,41,193" href="#null" onClick="javascript:show_card(2);"></area>
+		<area shape="rect" coords="941,160,963,193" href="#null" onClick="javascript:show_card(4);"></area>
+	</MAP>
+	
+	<MAP name="cardM_4">
+		<area shape="rect" coords="19,160,41,193" href="#null" onClick="javascript:show_card(3);"></area>
+		<area shape="rect" coords="941,160,963,193" href="#null" onClick="javascript:show_card(5);"></area>
+	</MAP>
+	
+	<MAP name="cardM_5">
+		<area shape="rect" coords="19,160,41,193" href="#null" onClick="javascript:show_card(4);"></area>
+		<area shape="rect" coords="941,160,963,193" href="#null" onClick="javascript:show_card(1);"></area>
+		<area shape="rect" coords="788,330,878,365" href="#null" onClick="javascript:window.print();"></area>
+	</MAP>
+
+	<div style="text-align:center; width:880px;">
+		<div id = 'TimeL_bg' style = 'position:absolute; float:left; display:none; z-index:2; height:410px; width:880px; top:197px;'>
+			<img src="images/time/bg.gif" border=0>
+		</div>
+		
+		<div id = 'TimeL' style = 'position:absolute; float:left; display:none; z-index:2; height:410px; width:880px; top:197px;'></div>
+		<div id = 'mainL' style = 'position:absolute; float:left; display:none; z-index:2; height:410px; width:880px; top:197px;'></div>
+		
+		<div id = 'closebtn' style = 'position:absolute; text-align:right; display:none; z-index:100; top:203px; width:880px;'>
+			<a href="#null" onClick="javascript:closeAD();"><img src="images/close_btn.gif" border=0 style="margin-right:6px;"></a>
+		</div>
+		
+		<div id = 'mainLL_Mov' style = 'display:none; position:absolute; float:left; z-index:10; top:197px; margin-left:29px; margin-top:80px;'></div>
+		<div id = 'mainLL' style = 'position:absolute; float:left; display:none; z-index:2; height:410px; width:880px; top:197px;'></div>
+		
+		<div id = 'searchL' style = 'position:absolute; text-align:right; display:none; z-index:2; height:277px; width:880px; top:156px;' onMouseOut="javascript:close_RS();">
+			<img src="images/searchL.jpg" border=0>
+		</div>
+		
+		<div id = 'qrL' style = 'position:absolute; text-align:right; display:none; z-index:2; height:116px; width:880px; top:156px;' onMouseOut="javascript:close_QR();"><img src="images/QRCodeImg_re.gif" border=0 style="margin-right:340px;"></div>
+
+		<div style="margin-bottom:3px;"><img src="images/top.gif" border=0 usemap="#RS"></div>
+		<div style="position:relative; float:left; display:inline;">
+			<div id="topAD" style="margin-bottom:5px;"><img src="images/left_ad.gif" border=0 usemap="#time"></div>
+			<div style="margin-bottom:5px;"><img src="images/left_1.gif" border=0 usemap="#news"></div>
+			<div style="margin-bottom:5px;"><img src="images/left_2.jpg" border=0 usemap="#pic1"></div>
+
+			<MAP name="news">
+				<area shape="rect" coords="37,95,250,109" href="newsb4e5.html?ck=2" target="_blank"></area>
+				<area shape="rect" coords="149,179,386,195" href="news079f.html?ck=6" target="_blank"></area>
+			</MAP>
+
+			<MAP name="pic1">
+				<area shape="rect" coords="30,44,135,126" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_paragliding" target="_blank"></area>
+				<area shape="rect" coords="141,44,246,126" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_scuba_diving" target="_blank"></area>
+				<area shape="rect" coords="252,44,357,126" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_udo_island" target="_blank"></area>
+				<area shape="rect" coords="362,44,469,126" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_snowboard" target="_blank"></area>
+			</MAP>
+
+			<div style="margin-bottom:5px;"><img src="images/left_3.jpg" border=0 usemap="#pic2"></div>
+
+			<MAP name="pic2">
+				<area shape="rect" coords="310,44,574,61" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=mh_food" target="_blank"></area>
+				<area shape="rect" coords="310,65,541,83" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=mh_best_photo" target="_blank"></area>
+				<area shape="rect" coords="310,87,567,105" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_movie" target="_blank"></area>
+				<area shape="rect" coords="311,170,533,187" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_yub_photo" target="_blank"></area>
+			</MAP>
+
+			<div style="margin-bottom:5px;"><img src="images/left_4.gif" border=0 usemap="#pic3"></div>
+
+			<MAP name="pic3">
+				<area shape="rect" coords="27,67,151,208" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_romantic_event" target="_blank"></area>
+				<area shape="rect" coords="168,67,291,208" href="http://movie.naver.com/movie/bi/mi/basic.nhn?code=99101" target="_blank"></area>
+				<area shape="rect" coords="307,67,430,208" href="#null" onClick="javascript:showPic(16);"></area>
+				<area shape="rect" coords="444,67,579,208" href="http://book.naver.com/bookdb/book_detail.nhn?bid=6010117" target="_blank"></area>
+			</MAP>
+
+		</div>
+
+		<div style="position:relative; float:right; display:inline;">
+			<div style="margin-bottom:2px;"><img src="images/right_1.gif" border=0 usemap="#rollingT"></div>
+
+			<MAP name="rollingT">
+				<area shape="rect" coords="49,136,224,151" href="rollingTcdfe.html?ck=1" target="_blank"></area>
+				<area shape="rect" coords="60,156,251,171" href="rollingTb4e5.html?ck=2" target="_blank"></area>
+				<area shape="rect" coords="59,176,263,191" href="rollingT1dfe.html?ck=3" target="_blank"></area>
+				<area shape="rect" coords="48,196,126,211" href="rollingT931b.html?ck=4" target="_blank"></area>
+			</MAP>
+
+			<div id="rollingM" style="position:absolute;"><a href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_wedding" target="_blank"><img src='images/280x150.jpg' border=0></a></div>
+			<div style="margin-top:157px; margin-bottom:5px;"><img src="images/right_2.gif" border=0 usemap="#Shop"></div>
+			<div id="rightB" style="margin-bottom:5px;"><a href="#null" onClick="chR_3(2);"><img src="images/right_3.gif" border=0></a></div>
+			
+			<div style="margin-bottom:5px;">
+				<a href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_foot_print" target="_blank"><img src="images/right_4.gif" border=0></a>
+			</div>
+		</div>
+
+		<div><img src="images/bottom.gif" border=0 usemap="#bottom"></div>
+	</div>
+
+	<MAP name="bottom">
+		<area shape="rect" coords="82,58,129,73" href="http://www.nhncorp.com/" target="_blank"></area>
+		<area shape="rect" coords="141,58,164,73" href="http://mktg.naver.com/marketing_center.html" target="_blank"></area>
+		<area shape="rect" coords="177,58,222,73" href="http://submit.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="234,58,281,73" href="https://www.nhncorp.com/nhn/company/proposalGuide.nhn" target="_blank"></area>
+		<area shape="rect" coords="293,58,340,73" href="http://www.naver.com/rules/service.html" target="_blank"></area>
+		<area shape="rect" coords="350,58,448,73" href="http://www.naver.com/rules/privacy.html" target="_blank"></area>
+		<area shape="rect" coords="460,58,539,73" href="http://www.naver.com/rules/youthpolicy.html" target="_blank"></area>
+		<area shape="rect" coords="552,58,611,73" href="http://www.naver.com/rules/spamcheck.html" target="_blank"></area>
+		<area shape="rect" coords="624,58,669,73" href="http://help.naver.com/customer/index.nhn" target="_blank"></area>
+	</MAP>
+
+	<MAP name="RS">
+		<area shape="rect" coords="14,135,38,151" href="http://mail.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="44,135,68,151" href="http://section.cafe.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="74,135,110,151" href="http://section.blog.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="114,135,151,151" href="http://kin.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="156,135,180,151" href="http://shopping.naver.com/" target="_blank"></area>
+
+		<area shape="rect" coords="195,135,219,151" href="http://dic.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="226,135,250,151" href="http://news.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="255,135,280,151" href="http://stock.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="286,135,322,151" href="http://land.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="327,135,353,151" href="http://map.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="360,135,384,151" href="http://movie.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="389,135,415,151" href="http://music.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="420,135,433,151" href="http://book.naver.com/" target="_blank"></area>
+
+		<area shape="rect" coords="68,28,287,90" href="index.html"></area>
+		<area shape="rect" coords="317,90,403,101" href="search.html" target="_blank"></area>
+		<area shape="rect" coords="418,90,493,101" href="#null" onClick="javascript:showPic(14);"></area>
+		<area shape="rect" coords="621,90,713,101" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_foot_print" target="_blank"></area>
+		<area shape="rect" coords="505,90,609,101" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_honeymoon" target="_blank"></area>
+		<area shape="rect" coords="725,125,880,162" href="#null" onMouseOver="javascript:show_RS();"></area>
+		<area shape="rect" coords="448,134,511,156" href="#null" onMouseOver="javascript:show_QR();"></area>
+	</MAP>
+
+	<MAP name="time">
+		<area shape="rect" coords="0,0,475,100" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_wedding_live" target="_blank"></area>
+		<area shape="rect" coords="481,14,590,48" href="http://map.naver.com/local/siteview.nhn?code=12758193" target="_blank"></area>
+		<area shape="rect" coords="486,69,583,88" href="http://jiny20c.cafe24.com/gnuboard4/bbs/board.php?bo_table=sjmh_foot_print" target="_blank"></area>
+	</MAP>
+
+	<MAP name="Shop">
+		<area shape="rect" coords="8,145,72,229" href="http://www.bmw.co.kr/kr/ko/newvehicles/x/overview.html" target="_blank"></area>
+		<area shape="rect" coords="78,145,139,229" href="http://land.naver.com/article/complexInfo.nhn?rletTypeCd=&cortarNo=&rletNo=24892" target="_blank"></area>
+		<area shape="rect" coords="143,145,204,229" href="http://shopping.naver.com/search/all_search.nhn?query=%EB%AA%85%ED%92%88%ED%95%B8%EB%93%9C%EB%B0%B1&cat_id=&frm=NVSHSRC" target="_blank"></area>
+		<area shape="rect" coords="210,145,268,229" href="http://shopping.naver.com/search/all_search.nhn?query=%EB%AA%85%ED%92%88%EC%BB%A4%ED%94%8C%EC%8B%9C%EA%B3%84&cat_id=&frm=NVSHSRC" target="_blank"></area>
+		<area shape="rect" coords="8,231,72,305" href="http://store.apple.com/kr/mac" target="_blank"></area>
+		<area shape="rect" coords="78,231,139,305" href="http://shopping.naver.com/search/all_search.nhn?query=%EB%85%B8%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4+%ED%8C%A8%EB%94%A9&cat_id=&frm=NVSHATC" target="_blank"></area>
+		<area shape="rect" coords="143,231,204,305" href="http://shopping.naver.com/search/all_search.nhn?query=%EB%8B%A4%EC%9D%B4%EC%95%84%EB%AA%AC%EB%93%9C+%EC%BB%A4%ED%94%8C%EB%A7%81&cat_id=&frm=NVSHSRC" target="_blank"></area>
+		<area shape="rect" coords="210,231,268,305" href="http://se.naver.com/" target="_blank"></area>
+		<area shape="rect" coords="8,308,72,385" href="http://shopping.naver.com/search/all_search.nhn?query=%EC%82%BC%EC%84%B1+%EC%8A%A4%EB%A7%88%ED%8A%B8tv&cat_id=&frm=NVSHATC" target="_blank"></area>
+		<area shape="rect" coords="78,308,139,385" href="http://shopping.naver.com/search/all_search.nhn?query=xbox360&cat_id=&frm=NVSHATC" target="_blank"></area>
+		<area shape="rect" coords="143,308,204,385" href="http://www.moorkorea.com/shop/goods/goods_view.php?inflow=naver&amp;goodsno=186785595&amp;nv_pchs=Aah%2Fjrhcb3Bd9PZHKCCd9uqlOex3wNJYp9IyIImV3xQ%3D" target="_blank"></area>
+		<area shape="rect" coords="210,308,268,385" href="http://www.staralliance.com/en/" target="_blank"></area>
+	</MAP>
+</NOPRINT>
+</body>
+</html>
